@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
 
 import cv2 
 
 
-# In[2]:
 
 
 #Break down the video into frames
@@ -21,9 +19,6 @@ while (True):
         break
     frameNr = frameNr+1
 video.release()
-
-
-# In[1]:
 
 
 from __future__ import print_function
@@ -46,7 +41,6 @@ for x in range(0, 2127):
     print(f'Number of butterflies of frame_{x}:', np.max(label(butterfly_centres)))
 
 
-# In[ ]:
 
 
 
